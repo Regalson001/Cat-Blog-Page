@@ -1,37 +1,31 @@
-# HTML & SVG Web Development Projects
+Markdown
+# 🐾 Cat Blog Page
 
-Welcome to my portfolio repository of web development labs and projects! This repository contains various hands-on HTML, multimedia, and SVG projects created as part of my frontend web development learning journey.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Course](https://img.shields.io/badge/freeCodeCamp-Responsive_Web_Design-1b1b32?style=flat&logo=freecodecamp)](https://www.freecodecamp.org/)
 
----
-
-## 🚀 Projects Included
-
-### 1. 💖 SVG Heart Icon (`heart-icon.html`)
-* **Description:** A scalable vector graphic (SVG) heart icon created using native HTML `<svg>` and `<path>` elements.
-* **Key Concepts:**
-  * Custom path drawing with the `d` attribute.
-  * SVG viewport configuration (`viewBox`, `width`, `height`).
-  * Vector styling and color fill properties (`fill="red"`).
-
-### 2. 🎵 Media & Video Players (`media-player.html`, `music-player.html`, `video-player.html`)
-* **Description:** Interactive media interface layouts built with HTML5 audio and video elements.
-* **Key Concepts:** Embedding audio/video streams, native control attributes, and responsive container layouts.
-
-### 3. 📚 Web Pages & Practice Labs (`bookstore.html`, `travel.html`)
-* **Description:** Structural HTML layouts for e-commerce and promotional web pages.
-* **Key Concepts:** Semantic HTML structure, headings, lists, links, and asset embedding.
+A responsive, semantically structured web page featuring blog posts and contact details for **Mr. Whiskers**. Built as part of the **freeCodeCamp Responsive Web Design** curriculum to demonstrate modern HTML5 best practices and web accessibility standards.
 
 ---
 
-## 🛠️ Technologies Used
+## 📌 Key Features
 
-* **HTML5:** Semantic elements, embedded audio/video elements, structural layout.
-* **SVG:** Scalable vector graphics path rendering.
-* **Git & GitHub:** Version control and remote repository management.
+* **Semantic HTML Markup:** Built using modern HTML5 structural elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<figure>`, and `<footer>`) to improve SEO, maintainability, and screen reader accessibility.
+* **In-Page Anchor Navigation:** Integrated jump links within the navigation bar for quick scrolling to dedicated sections (`#about`, `#posts`, and `#contact`).
+* **Interactive Contact Links:** Implemented native HTML link protocols (`tel:` and `mailto:`) enabling seamless one-touch phone calls and direct email client activation.
+* **Modular Content Layout:** Structured blog entries enclosed inside dedicated `<article>` tags for clean content separation.
 
 ---
 
-## 👤 Author
+## 🛠️ Tech Stack
 
-* **Name:** Oyugi
-* **GitHub:** [@Regalson001](https://github.com/Regalson001)
+* **Language:** HTML5
+
+---
+
+## 📂 Project Structure
+
+```text
+Cat-Blog-Page/
+├── cat-blog.html    # Main HTML document
+└── README.md        # Project documentation
